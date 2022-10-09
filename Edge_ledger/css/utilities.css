@@ -1,0 +1,133 @@
+.text-primary {
+    color: rgb(1, 172, 1);
+
+}
+.text-seconndary{
+    color: #0284d0;
+}
+.bg-primary{
+    background: rgb(1, 172, 1);
+    color: #fff;
+}
+.bg-secondary{
+    background: #0284d0;
+    color: #fff;
+}
+.bg-dark{
+    background: #f4f4f4;
+}
+.bg-dark2{
+    background: #3f3f3f;
+    color: #fff;
+}
+.logo{
+    font-weight: 400;
+}
+.current{
+    border-bottom: rgb(1, 172, 1) 2px solid;
+}
+.btn{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: rgb(94, 93, 93);
+    color: #fff;
+    border-radius: 50px;
+    opacity: 0.8;
+}
+.btn-primary{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: rgb(1, 172, 1);
+    color: #fff;
+    border-radius: 50px;
+    
+}
+.btn:hover{
+    background: rgb(1, 172, 1);
+    color: #fff;
+}
+.btn-outline{
+    background: transparent;
+    border: 1px solid #fff;
+}
+.flex-items > div{
+    padding: 20px;
+}
+
+.flex-columns.flex-reverse .row{
+    flex-direction: row-reverse;
+}
+
+.flex-columns .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.flex-columns .column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.flex-columns .column .column-1{
+     height: 100%;
+
+}
+
+.flex-columns .column .column-2{
+    height: 100%;
+}
+.flex-columns img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.flex-columns .column-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+}
+.flex-columns .column .column-2 h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+.flex-columns .column .column-2 h4{
+    margin-bottom: 40px;
+}
+.flex-columns .column .column-2 p{
+    padding: 20px 0;
+}
+
+
+.section-header{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.section-header h2{
+    font-size: 40px;
+    margin: 20px 0;
+}
+.section-padding{
+    padding: 20px 20px 40px;
+}
+
+.flex-grid .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 40px;
+}
+.flex-grid .column{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
